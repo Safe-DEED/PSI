@@ -1,5 +1,7 @@
 # Java Library for Private Set Intersection (PSI)
 
+For a detailed description of this PSI protocol and a possible use-case see https://safe-deed.eu/wp-content/uploads/2020/06/Safe-DEED_D5_4.pdf
+
 ## Requirements
 
 * Linux
