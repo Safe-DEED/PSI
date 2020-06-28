@@ -12,12 +12,12 @@ For a detailed description of this PSI protocol and a possible use-case see http
 
 Server: specify input file and port
 ```
-LD_LIBRARY_PATH=$PWD java -jar ./psi1-0-1.jar Server Forthnet_CRM_Data.csv 8000
+LD_LIBRARY_PATH=$PWD java -jar ./psi1-0-1.jar Server CompanyA.csv 8000
 ```
 
 Client: specify input file, host and port
 ```
-LD_LIBRARY_PATH=$PWD java -jar ./psi1-0-1.jar Client Bank_CRM_Data.csv 127.0.0.1 8000
+LD_LIBRARY_PATH=$PWD java -jar ./psi1-0-1.jar Client CompanyB.csv 127.0.0.1 8000
 ```
 
 This performs a set intersection of the first column of the two files. The output is written into the two files. First, a text file intersection_raw.txt and secondly into a html file intersection.html (both on the client side). Note that it only supports ZIP-codes so far, i.e. values up to 16 digits.
