@@ -28,6 +28,8 @@ This code is provided as a experimental implementation for testing purposes and 
 
 ## Acknowledgements
 
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 825225.
+
 This project uses several other projects as building blocks. In particular, this project is largely based on a PSI protocol for [Mobile Private Contact Discovery](https://contact-discovery.github.io/), which itself uses the following resources:
 
 * The OT code is based on the public domain library [libOTe](https://github.com/osu-crypto/libOTe) by Peter Rindal.
